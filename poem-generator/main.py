@@ -20,4 +20,8 @@ if st.button("Generate Poem"):
 
 
 st.write("------------")
-st.write("Made with 🧡 by Vikram")
+st.markdown("""
+    <p style='text-align: center; color: orange; font-size: 18px;'>
+        Made with 🧡 by Vikram
+    </p>
+""", unsafe_allow_html=True)
