@@ -9,10 +9,10 @@ if st.button("Generate Poem"):
         if response.status_code == 200:
             data = response.json()
             title = data[0]["title"]
-            lines = data[0]["lines"]
+            poem = data[0]["".join()]
             author = data[0]["author"]
             st.success(title)
-            st.success(lines)
+            st.success(poem)
             st.success(author)
             
     except:
