@@ -14,8 +14,8 @@ if st.button("Generate Poem"):
 
             result = title, lines, author
             st.success(result)
-            st.success(lines)
-            st.success(author)
+            # st.success(lines)
+            # st.success(author)
             
             
     except:
