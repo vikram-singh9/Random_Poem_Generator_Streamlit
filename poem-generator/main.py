@@ -11,12 +11,13 @@ if st.button("Generate Poem"):
             title = data[0]["title"]
             lines = data[0]["lines"]
             author = data[0]["author"]
-
-            result = title, lines, author
-            st.success(result)
-            # st.success(lines)
-            # st.success(author)
-            
+            st.success(title)
+            st.success(lines)
+            st.success(author)
             
     except:
         print("Error found can't load data!")
+
+
+st.write("------------")
+st.write("Made with 🧡 by Vikram")
