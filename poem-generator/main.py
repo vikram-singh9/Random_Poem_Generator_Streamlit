@@ -21,7 +21,7 @@ if st.button("Generate Poem"):
 
 st.write("------------")
 st.markdown("""
-    <p style='text-align: center; color: orange; font-size: 18px;'>
+    <p style='text-align: center; color: blue; font-size: 18px;'>
         Made with 🧡 by Vikram
     </p>
 """, unsafe_allow_html=True)
