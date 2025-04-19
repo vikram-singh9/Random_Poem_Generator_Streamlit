@@ -17,7 +17,7 @@ if st.button("Generate Poem"):
             st.success(author)
             
     except:
-        st.error("Error can't load data")sddsdsdsdsdsdsqwweqsdfw
+        st.error("Error can't load data")sddsdsdsdsdsdsqwweqsdfwq
 
 
 st.write("------------")
